@@ -241,7 +241,7 @@ void readFile(node *list)
     string city;
     string name;
     double temp;
-    file.open("/Users/kasimshah/Desktop/temperature.txt");
+    file.open("temperature.txt");
     
     while(file.good())
     {
